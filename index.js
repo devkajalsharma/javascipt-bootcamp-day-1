@@ -62,54 +62,46 @@ let cars = []
    - year: 2018 */
 // 2. Add three car objects to the "cars" array.
 cars.push({
-    make: "Toyota",
-    model: "Camry",
+    make: "toyoto",
+    model: "camry",
     year: 2018
-  });
-  cars.push({
-    make: "Toyota",
-    model: "Camry",
+})
+cars.push({
+    make: "toyoto",
+    model: "camry",
     year: 2018
-  });
-  cars.push({
-    make: "Toyota",
-    model: "Camry",
+})
+cars.push({
+    make: "toyoto",
+    model: "camry",
     year: 2018
-  });
-  
-  // 3. Remove the first car object from the "cars" array.
-  cars.shift();
-  
-  // 4. Add a new car object to the "cars" array.
-  cars.push({
+})
+
+console.log(cars)
+
+
+// 3. Remove the first car object from the "cars" array.
+cars.shift();
+console.log(cars)
+
+// 4. Add a new car object to the "cars" array.
+cars.push({
     make: "Honda",
-    model: "Civic",
+    model: "civic",
     year: 2020
-  });
-  
-  // 5. Update the "model" property of the second car object in the array to "Accord".
-  if (cars.length >= 2) {
-    cars[1].model = "Accord";
-  }
-  
-  // 6. Print the final "cars" array after performing the above operations.
-  console.log(cars);
-[
-    {
-      make: "Toyota",
-      model: "Camry",
-      year: 2018
-    },
-    {
-      make: "Accord",
-      model: "Accord",
-      year: 2018
-    },
-    {
-      make: "Honda",
-      model: "Civic",
-      year: 2020
-    }
-  ]
+})
+console.log(cars)
+
+// 5. Update the "model" property of the second car object in the array to "Accord".
+cars[1].model = "Accord";
+
+console.log(cars)
+
+
+let a = [1, 2, 3]
+let b = a;
+b.pop()
+console.log(a, b)
+
 
 
